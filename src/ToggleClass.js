@@ -7,8 +7,8 @@ const Main = () => {
     }
     return (
         <>
-            <div className={toggleClass && "on"} onClick={classHandler}>{toggleClass ? "on" : "off"}</div>
-            <button onClick={classHandler}>count up</button>
+            <div className={toggleClass ? "on" : ""} onClick={classHandler}>{toggleClass ? "on" : "off"}</div>
+            <button onClick={classHandler}>toggleClass</button>
         </>
     )
 }
