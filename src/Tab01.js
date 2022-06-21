@@ -8,9 +8,8 @@ const Tab01 = () => {
         { id: 2, content: '02우리나라 대한민국' },
         { id: 3, content: '03우리나라 대한민국' },
     ]
-    const tabHandler = (idx) => {
-        setTab(idx);
-        console.log(idx)
+    const tabHandler = (amunum) => {
+        setTab(amunum);
     }
     return (
         <>
